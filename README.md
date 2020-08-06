@@ -17,11 +17,7 @@ pip install virtualenv
 python -m venv env_name
 
 #Acces VirtualEnv
-#MAC
-source env_name/bin/activate
-
-#Windows
-.\env_name\Scripts\activate
+source env_name/bin/activate   #(Windows) .\env_name\Scripts\activate
 
 #Install packages
 pip install -r requirements.txt
@@ -30,7 +26,8 @@ pip install -r requirements.txt
 pip install flask
 
 #Set Enviroment
-export FLASK_ENV=development #export FLASK_ENV=production
+export FLASK_ENV=development #export FLASK_ENV=production #(MAC)
+set FLASK_ENV=development #set FLASK_ENV=production #(Windows)
 
 #Set Initial app
 export FLASK_APP=run.py
