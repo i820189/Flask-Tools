@@ -33,7 +33,7 @@ pip install flask
 export FLASK_ENV=development #export FLASK_ENV=production
 
 #Set Initial app
-export FLASK_APP=app.py
+export FLASK_APP=run.py
 
 #Run app
 flask run #python app.py
