@@ -26,14 +26,16 @@ pip install -r requirements.txt
 pip install flask
 
 #Set Enviroment
-export FLASK_ENV=development #export FLASK_ENV=production #(MAC)
-set FLASK_ENV=development #set FLASK_ENV=production #(Windows)
+export FLASK_ENV=development (production)  # set FLASK_ENV=production #(MAC)
 
 #Set Initial app
-export FLASK_APP=run.py
+export FLASK_APP=run.py   # setFLASK_APP=run.py
 
 #Run app
-flask run #python app.py
+flask run #python run.py
+
+#Out the enviroment
+deactivate
 ```
 
 ## Usage
@@ -41,6 +43,7 @@ flask run #python app.py
 ```python
 import ....
 ```
+![](function_flask.gif)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
